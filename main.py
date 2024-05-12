@@ -23,6 +23,10 @@ os.system("clear")
 print()
 print()
 print()
+print(
+    green,
+    "\nsuccessfully converted your simple looking text into rainbow text.👍👍\n\n",
+    white)
 for i in taking_uses:
   if i.lower() == 'r':
     print(red, end="")
@@ -40,6 +44,7 @@ for i in taking_uses:
     print(white, end="")
 
   print(i, end="")
+
 
 print()
 print()
